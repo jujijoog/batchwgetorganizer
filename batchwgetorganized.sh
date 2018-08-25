@@ -1,0 +1,1 @@
+sed -i -E "s/^(.*?)$/mkdir \1\ncd \1\nwget -r -m \1\ncd../" target2.txt
